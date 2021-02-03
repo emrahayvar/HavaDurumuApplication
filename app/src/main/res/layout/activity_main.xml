@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/arkaplan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.5"
+            android:textColor="#000"
+            android:textSize="16dp"
+            android:background="#fff"
+            android:padding="10dp"
+            tools:ignore="Suspicious0dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/textField"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="41.5dp"
+            android:layout_weight="0.5"
+            android:src="@drawable/ic_stat_name"
+            tools:ignore="Suspicious0dp"
+            android:layout_gravity="center"
+            android:id="@+id/search"/>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sıcaklık"
+            android:textColor="#fff"
+            android:textSize="50dp"
+            android:id="@+id/sicaklikText"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hissedilen"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:id="@+id/hissedilenText"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nem"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:id="@+id/nemText"
+            />
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
